@@ -24,3 +24,47 @@ a{
 
 }
 /* Nav bar end*/
+
+body{
+  background-color: #ffeaa7;
+  height: 100%;
+  width: 100%;
+}
+
+.button hover {
+  box-shadow: 0px 2px 2px #222F3E;
+    color:whitesmoke;
+
+}
+.button{
+  background-color: #74b9ff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+  
+    .toyitem{
+      display: block;
+      width: 23%;
+  }
+  
+  .toyitem img{
+      height: 250px;
+      width: auto;
+      border-radius:25px;
+      padding: 8px;
+      
+    }
+  
+  p{
+    display: flex;
+    align-content: center;
+  }
