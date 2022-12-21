@@ -1,4 +1,5 @@
 *{margin:0; padding:0;}
+
 html,  
 
 .nav{
@@ -24,3 +25,135 @@ a{
 
 }
 /* Nav bar end*/
+
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+h1{
+    color: #69C4EE;
+    margin: 20 0 10 0px;
+    margin: auto;
+  }
+  p{
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  
+  body{
+    background-color:#F5F5F5
+  }
+  
+  .picture {
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .donation-interface{
+    padding: 10px 20px 25px 500px;
+    display: block;
+    margin: auto;
+   
+  }
+
+  .description {
+    margin: auto;
+    padding: 10px 20px 25px 400px;
+  }
+  
+  .btn-amount-group{
+    margin-bottom: 20px;
+    width: 130%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+  .btn-amount{
+    border: 2px solid #69C4EE;
+    background-color:#F5F5F5;
+    color: #69C4EE;
+    width: 25%;
+    height: 50px;
+  }
+  
+  .btn-amount:hover{
+    background-color:#69C4EE;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .btn-amount:focus , .btn-amount.active, .btn-active{
+    background-color:#69C4EE;
+    color: #fff;
+  }
+  
+  
+  .btn-give{
+    background-color:#69C4EE;
+    width: 98%;
+    height: 64px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-text{
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  #input-amount{
+    display:none;
+  }
+  
+  .input-group{
+    width: 100%;
+    height: 64px;
+  
+  }
+  .input-group-addon, .form-control{
+    border: 2px solid #69C4EE;
+    background-color:#fff;
+    color: #69C4EE;
+    width: 10%;
+    height: 64px;
+  }
+  
+  .form-control{
+    color: #69C4EE;
+    font-size: 40px;
+  }
+ 
+
+footer{
+    height: 100px;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color:white;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+  margin:20px;
+}
+.footer-bottom{
+    background: #000;
+}
