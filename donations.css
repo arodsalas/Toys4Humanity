@@ -1,19 +1,39 @@
 *{margin:0; padding:0;}
-html,
+
+html,  
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccae62;
+  /*text-align: right;*/
+  padding:20px;
+  opacity: 70%; 
+  
+
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #576574;
+    padding: 15px;
+}
+  
+.nav-item{
+  display:inline;
+  padding: 15px;
+
+}
+/* Nav bar end*/
+
+
 body {
   height: 100%;
   width: 100%;
 }
-.nav{
-  text-align: right;
-  background-color:gold;
-  padding:20px;
-}
-/* Takes care of bar, so color size and where the words end up */
-.nav-item{
-  display:inline;
-  padding: 15px;
-}
+
+
+
 
 
 
