@@ -7,17 +7,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.nav{
-    display: flex;
+.nav {
+    display:flex;
     justify-content: space-around;
     background-color: #ccae62;
   /*text-align: right;*/
-  padding:20px;
-  opacity: 70%; 
+    padding:20px;
+    opacity: 70%; 
   
 
 }
-a{
+a {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #576574;
@@ -27,16 +27,17 @@ a{
 .nav-item{
   display:inline;
   padding: 15px;
+  flex-direction: row;
 
 }
 /* Nav bar end*/
 
-.opacity{
+.opacity {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
 } 
 
-h1{
+h1 {
   color: #ccae62;
   text-align: center;
   padding-top: 300px;
@@ -52,10 +53,12 @@ p {
   font-style: italic;
   margin-top: 20px;
   letter-spacing: 5px;
+  margin-bottom: 50px;;
 }
 
-button{
+button {
   display: flex;
+  align-items: flex-end;
   margin: auto;
   margin-top: -300px;
   padding: 15px;
@@ -77,5 +80,45 @@ button:hover {
   text-decoration: none;
   color: #ccae62;
   
+}
+/* Andres's additions */
+
+
+ @media screen and (max-width: 390px){
+    body{
+        height: 100%;
+    } 
+    .nav { justify-content:flex-start; padding:3vw;}
+    .nav-item { display: inline; }
+     h1 {width: 100%; display:flex; align-items:center; flex-wrap: wrap; font-size: 50px; ; }  
+    p {width: 390px; display:flex; justify-content:center;} 
+   
+} 
+@media screen and (max-width: 810px) {
+    button {
+        margin-top: -500px;
+    }
+    
+}
+
+
+.ducky {
+  height:30px;
+  width: 30px;
+  margin-right:30px;
+  position: relative;
+  right: 250px; 
+  
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  box-shadow: 0px 2px 2px #222f3e;
+  background-color: #84817a;
+  text-decoration: none;
+  color: #ccae62;
 }
 

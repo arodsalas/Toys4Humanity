@@ -14,42 +14,45 @@
     <!-- Nav Br start -->
   <nav class="nav">
     <ul>
-        <li class="nav-item"> <a href="home.html"> HOME </a></li>
-
-        <li class="nav-item"> <a href="products.html"> PRODUCTS </a></li>
-        
+      <li><img class="ducky" src="images/duckyicon.png" alt="Ducky icon"></li>
+      <li class="nav-item"> <a href="home.html"> HOME </a></li>
       <li class="nav-item"> <a href="about.html"> ABOUT US </a></li>
-  
+      <li class="nav-item"> <a href="products.html"> PRODUCTS </a></li>
       <li class="nav-item"> <a href="contact.html"> CONTACT </a></li>
-    
       <li class="nav-item"> <a href="donations.html"> DONATIONS </a></li>
     </ul>
     
-
-</nav>
+  </nav>
  <!-- Nav bar end -->   
      
       
-    <div class="container">
+    <div class="container opacity">
         <div class="donation-interface">
         <h1>Give the Gift of Happiness</h1>
         </div>
 
       <div class="picture">
-        <img src="image/TeddyBearKid.jpeg">
+        <img class="ducky circleducky" src="images/duckyicon.png" alt="Ducky icon">
       </div>  
       
-      <div class="description">
-        <h2>Your donation keeps the hope of joy around the world alive!</h2>
-      </div>
+
 
         <div class="form-group">
+          <div class="description">
+            <h2>Your donation keeps the hope of joy around the world alive!</h2>
+          </div>
         
           <div class="btn-group btn-group-lg btn-amount-group" role="group" aria-lable="...">
           <button type="button" class="btn btn-amount btn-amount-number">$20</button>
           <button type="button" class="btn btn-amount btn-amount-number" >$50</button>
           <button type="button" class="btn btn-amount btn-amount-number">$100</button>
           <button type="button" id="other" class="btn btn-amount">Other</button>
+          <div class="checkbox">
+            <label><input type="checkbox" value="monthly">Monthly Recurring Gift</label>
+            <br>
+            <button type="button" class="btn btn-give"><a href="worm.html"></a><span class="btn-text">Debit/Credit</span></button>
+            <button type="button" class="btn btn-give"><a href="worm.html"></a><span class="btn-text">Paypal</span></button>
+          </div>
         </div>
           
           <div id="input-amount">
@@ -61,15 +64,8 @@
           </div>
           
           </div>  
-          
-      <div class="checkbox">
-        <label><input type="checkbox" value="monthly">Monthly Recurring Gift</label>
-      </div>
-      
-        <button type="button" class="btn btn-give"><span class="btn-text">Give By Card</span></button>
-        <button type="button" class="btn btn-give"><span class="btn-text">Paypal</span></button>
        
-        </div>
+    </div>
       
         <footer class="footer-bottom">
           <ul class="socials">
