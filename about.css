@@ -85,6 +85,31 @@ text-decoration: none;
 }
 
 
+/* Extra small devices (phones, 390px and down) */
+@media only screen and (max-width: 390px) {
+  .nav-item {
+    padding:0px;
+    font-size: xx-small;
+  }
+  .nav {
+    width: 460px;
+  }
+  .opacity {
+    width: 500px;
+   }
+   div {
+     width: 350px;
+   }
+   p {
+     font-size: small;
+   }
+   .text2 {
+     color:black;
+   }
+}
+
+
+
 
 /* Andres's additions */
 
@@ -150,4 +175,5 @@ p {
   left:36%;
   top: 36%;
 }
+
 
