@@ -1,22 +1,34 @@
 *{margin:0; padding:0;}
 
+/* Andres's Additions */
 html,  
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/piggyb.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+/* Andres's Additions End */ 
 
 .nav{
     display: flex;
     justify-content: space-around;
     background-color: #ccae62;
-  /*text-align: right;*/
-  padding:20px;
-  opacity: 70%; 
+   /*text-align: right;*/
+   padding:20px;
+   opacity: 70%; 
   
 
 }
-a{
+a {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #576574;
     padding: 15px;
+
 }
   
 .nav-item{
@@ -66,7 +78,7 @@ h1{
 
   .description {
     margin: auto;
-    padding: 10px 20px 25px 400px;
+    
   }
   
   .btn-amount-group{
@@ -98,7 +110,7 @@ h1{
   
   .btn-give{
     background-color:#69C4EE;
-    width: 98%;
+    width: 200px;
     height: 64px;
     margin: 10px;
     cursor: pointer;
@@ -157,3 +169,93 @@ footer{
 .footer-bottom{
     background: #000;
 }
+
+/* Andres's additions */
+
+.ducky {
+  height:30px;
+  width: 30px;
+  margin-right:30px;
+  position: relative;
+  right: 250px; 
+  
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  box-shadow: 0px 2px 2px #222f3e;
+  background-color: #84817a;
+  text-decoration: none;
+  color: #ccae62;
+}
+
+h1 {
+  color: #ccae62;
+  text-align: left;
+  padding-top: 70px;
+  font-size: 50px;
+  letter-spacing: 5px;
+
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-bottom: 150px;
+} 
+
+.form-group {
+ height:500px;
+ width: 500px;
+ position: relative;
+ left:500px;
+}
+
+h2 {
+  color:white;
+}
+
+.checkbox {
+  margin-top: 20px;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-bottom: 150px;
+} 
+
+.circleducky {
+  position:relative;
+  left:36%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
