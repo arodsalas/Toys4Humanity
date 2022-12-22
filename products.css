@@ -86,7 +86,7 @@ body{
   
     }}
  
-
+/* media for mobile */
 @media screen and (max-width: 810px){
   .toyitem img{
     height:250px;
@@ -103,28 +103,4 @@ body{
 
   }}
 
-}
-  
-  
-  /* .toyitem img{ 
-     height:100px;
-      width:75px;
-      padding: 7px;
-      flex-direction: row-reverse;
-      
-  }
-  p {
-    height: fit-content;
-    font-size: 8px;
-   
-    width: fit-content;
-
-  }
-
-  body{
-    width: auto;
-   
-    
-  }
-} */
  /* media for tablet  */
