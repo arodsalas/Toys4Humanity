@@ -54,6 +54,7 @@ body{
     .toyitem{
       display: block;
       width: 23%;
+      flex-basis: 33.33%;
   }
   
   .toyitem img{
@@ -68,3 +69,62 @@ body{
     display: flex;
     align-content: center;
   }
+
+   @media screen and (max-width: 390px) {
+    .toyitem img{
+      height:100px;
+        width:75px;
+        padding: 7px;
+        flex-direction: row-reverse;
+        
+    }
+    p {
+      height: fit-content;
+      font-size: 8px;
+     
+      width: fit-content;
+  
+    }}
+ 
+
+@media screen and (max-width: 810px){
+  .toyitem img{
+    height:250px;
+      width:230px;
+      padding: 7px;
+      flex-direction: row-reverse;
+      
+  }
+  p {
+    height: fit-content;
+    font-size: 20px;
+   
+    width: fit-content;
+
+  }}
+
+}
+  
+  
+  /* .toyitem img{ 
+     height:100px;
+      width:75px;
+      padding: 7px;
+      flex-direction: row-reverse;
+      
+  }
+  p {
+    height: fit-content;
+    font-size: 8px;
+   
+    width: fit-content;
+
+  }
+
+  body{
+    width: auto;
+   
+    
+  }
+} */
+ /* media for tablet  */
